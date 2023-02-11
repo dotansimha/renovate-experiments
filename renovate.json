@@ -10,7 +10,6 @@
       "matchPackageNames": ["@theguild/prettier-config"],
       "prPriority": 10000,
       "ignoreUnstable": false,
-      "respectLatest": false,
       "allowedVersions": "/^([0-9]+).([0-9]+)(?:.([0-9]+))?(-rc-.+)?$/"
     }
   ]
