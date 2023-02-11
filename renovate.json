@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>the-guild-org/shared-config:renovate",
+    ":preserveSemverRanges"
+  ],
+  "packageRules": [
+    {
+      "groupName": "@theguild/prettier-config",
+      "matchPackageNames": ["@theguild/prettier-config"],
+      "prPriority": 10000,
+      "ignoreUnstable": false,
+      "respectLatest": false,
+      "allowedVersions": "/^(d+).(d+)(?:.(d+))?(-rc-.+)?$/"
+    }
+  ]
+}
