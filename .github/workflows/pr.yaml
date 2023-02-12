@@ -19,5 +19,5 @@ jobs:
       - uses: the-guild-org/shared-config/release-trackback@trackback
         if: ${{ always() }}}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GUILD_BOT_TOKEN }}
 
