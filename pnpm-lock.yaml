@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@theguild/prettier-config': 1.1.2
+  '@theguild/prettier-config': 1.1.3-rc-20230212111949-a3dd7e4
 
 dependencies:
-  '@theguild/prettier-config': 1.1.2
+  '@theguild/prettier-config': 1.1.3-rc-20230212111949-a3dd7e4
 
 packages:
 
@@ -303,8 +303,8 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@theguild/prettier-config/1.1.2:
-    resolution: {integrity: sha512-G4zChCRSSv6B9usDnJNkJOL6as/TmfP6LMLbmpnbATVARzArY4nGTRFD5NQBH64SbVLrmfvtbOGJJIBUtDOU+w==}
+  /@theguild/prettier-config/1.1.3-rc-20230212111949-a3dd7e4:
+    resolution: {integrity: sha512-hPpr7VIc1KGTn6/ivB2NuA8yeixYq5XyP+Gj4BFWnJB7cxCmk6wE2jS+oF726mqrCJQN/z/rNRIHu2giodeXCg==}
     peerDependencies:
       prettier: ^2
     dependencies:
