@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@theguild/prettier-config": "1.1.1"
+    "@theguild/prettier-config": "1.1.2"
   }
 }
