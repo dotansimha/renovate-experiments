@@ -13,9 +13,6 @@ jobs:
         with:
           fetch-depth: 0
           
-      - run: exit 1
-        name: fail on purpose
-
       - uses: the-guild-org/shared-config/release-trackback@trackback
         if: ${{ always() }}}
         with:
